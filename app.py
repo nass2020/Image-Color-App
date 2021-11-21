@@ -75,7 +75,7 @@ def color():
 
     res = requests.post("https://api.deepai.org/api/colorizer",
                         files={'image': open(destination, 'rb'), },
-                        headers={'api-key': 'change-key'})
+                        headers={'api-key': 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'})
 
     url = res.json()['output_url']
 
